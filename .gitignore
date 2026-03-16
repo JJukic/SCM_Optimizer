@@ -1,0 +1,47 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Explicitly ignored project-local config templates
+.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Project metadata (local-only per current workflow)
+pyproject.toml
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Generated data
+/data/raw/*
+/data/processed/*
+/data/sample/*
+!/data/raw/.gitkeep
+!/data/processed/.gitkeep
+!/data/sample/.gitkeep
